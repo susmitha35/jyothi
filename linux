@@ -17,3 +17,4 @@ while IFS= read -r SERVER; do
     echo "Executing on $SERVER..."
     ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 "$SERVER" "$REMOTE_COMMAND"
 done < "$SERVER_LI
+iam susmitha i am from banglore
